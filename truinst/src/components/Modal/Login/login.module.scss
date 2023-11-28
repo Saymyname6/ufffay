@@ -1,0 +1,44 @@
+.title {
+  color: #ff2c55;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: block;
+  margin-bottom: 30px;
+}
+.window {
+  height: 270px;
+}
+
+.input {
+  margin-top: 25px;
+  width: 280px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.solid {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 290px;
+}
+
+.reg {
+  color: var(--red__900);
+  background: transparent;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  &:hover {
+    color: #bd0429;
+  }
+}
+
+.log {
+  font-size: 14px;
+  margin-left: 10px;
+}

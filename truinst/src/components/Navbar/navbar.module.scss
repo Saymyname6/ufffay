@@ -1,0 +1,17 @@
+.navbar {
+  background: #ffff;
+  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+
+  .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+  }
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}

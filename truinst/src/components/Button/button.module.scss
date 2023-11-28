@@ -1,0 +1,42 @@
+.btn {
+  padding: 12px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &.solid {
+    background: var(--red__900);
+    color: #ffff;
+
+    &:hover {
+      background: #bd0429;
+      transition: background 0.3s;
+    }
+  }
+
+  &.outline {
+    color: var(--red__900);
+    background: transparent;
+    border: 1px solid var(--red__900);
+
+    &:hover {
+      background: pink;
+      transition: background 0.3s;
+    }
+  }
+
+  &.clear {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    color: var(--red__900);
+    border-bottom: 1px solid transparent;
+    &:hover {
+      border-bottom: 1px dashed var(--red__900);
+    }
+  }
+
+  &:disabled {
+    pointer-events: none;
+    background: #fa748f;
+  }
+}

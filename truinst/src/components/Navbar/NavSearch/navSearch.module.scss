@@ -1,0 +1,23 @@
+.navSearch {
+  background: #ffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  max-width: 290px;
+  width: 100%;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+
+  input {
+    padding: 5px;
+    flex-grow: 1;
+    border-radius: inherit;
+  }
+
+  .close {
+    font-size: 15px;
+    cursor: pointer;
+    color: #8a8686;
+    padding: 0 3px;
+  }
+}
